@@ -22,7 +22,7 @@ if uploaded_video:
 
     if button:
         # Initialize video capture
-        video_path = "uploaded_video.mp4"
+        video_path = "TestVideo.mp4"
         with open(video_path, "wb") as video_file:
             video_file.write(uploaded_video.read())
 
